@@ -28,6 +28,7 @@ Scenario 2: check the remote reposiotry configured to a local repository, config
 	git remote -v --> to see the configured remote reposiotry"
 	git status --> ensure working directory is clean
 	git remote add origin https://github.com/lerndevops/test1.git
+    	git push --set-upstream origin master
 	git push origin master --> to push the changes to remote reposiotry.
 	
 
